@@ -10,7 +10,11 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.container__footer{
+  max-width: 960px;
   margin: 0 auto;
 }
 

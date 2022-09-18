@@ -1,0 +1,123 @@
+// header block
+
+.header {
+    // .header__topinner
+
+    &__topinner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // header__logo
+
+    &__logo {
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #69b9ff;
+        padding: 11px 0px 24px;
+        transition: 0.5s;
+        &:hover {
+            color: #676770;
+        }
+    }
+
+    // .header__menu
+
+    &__menu {
+        margin-right: 20px;
+    }
+
+    // .header__menu-link
+
+    &__menu-link {
+        transition: 0.5s;
+        font-size: 16px;
+        line-height: 124%;
+        color: #676770;
+        &:hover {
+            color: #0082f3;
+        }
+        &:first-child {
+            margin-right: 40px;
+        }
+    }
+
+    // .header__bottominner
+
+    &__bottominner {
+        background-image: url(../img/header-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 184px;
+        padding-bottom: 200px;
+    }
+
+    // .header__title
+
+    &__title {
+        font-weight: 400;
+        font-size: 59px;
+        line-height: 102%;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 106px;
+    }
+
+    // .header__buttons
+
+    &__buttons {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 341px;
+        width: 100%;
+    }
+
+    // .header__buttons-sign
+
+    &__buttons-sign {
+        font-size: 16px;
+        line-height: 131%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 10px 30px 13px;
+        border: 1px solid #69B9FF;
+        background-color: #69B9FF;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: .5s;
+        &:hover{
+            border: 1px solid #fff;
+            background-color: transparent;
+            color: fff;
+        }
+    }
+
+    // .header__buttons-learn
+
+    &__buttons-learn {
+        font-size: 16px;
+        line-height: 131%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 10px 31px 13px;
+        border-radius: 4px;
+        background-color: transparent;
+        transition: .5s;
+        cursor: pointer;
+        border: 1px solid #fff;
+        &:hover{
+            border: 1px solid #69B9FF;
+            background-color: #69B9FF;
+            color: #fff;
+        }
+    }
+}
