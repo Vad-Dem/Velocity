@@ -88,12 +88,12 @@
         text-transform: uppercase;
         color: #ffffff;
         padding: 10px 30px 13px;
-        border: 1px solid #69B9FF;
-        background-color: #69B9FF;
+        border: 1px solid #69b9ff;
+        background-color: #69b9ff;
         border-radius: 4px;
         cursor: pointer;
-        transition: .5s;
-        &:hover{
+        transition: 0.5s;
+        &:hover {
             border: 1px solid #fff;
             background-color: transparent;
             color: fff;
@@ -111,13 +111,98 @@
         padding: 10px 31px 13px;
         border-radius: 4px;
         background-color: transparent;
-        transition: .5s;
+        transition: 0.5s;
         cursor: pointer;
         border: 1px solid #fff;
-        &:hover{
-            border: 1px solid #69B9FF;
-            background-color: #69B9FF;
+        &:hover {
+            border: 1px solid #69b9ff;
+            background-color: #69b9ff;
             color: #fff;
         }
+    }
+}
+
+// about
+
+.about {
+    padding: 80px 0px;
+    // .about__title
+
+    &__title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #676770;
+        margin-bottom: 17px;
+    }
+
+    // .about__subtitle
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 118%;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #8e8e9c;
+        margin-bottom: 62px;
+    }
+
+    // .about__inner
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .about__item
+
+    &__item {
+        border: 1px solid #dcebf7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        width: 100%;
+        padding: 36px 16px 23px;
+    }
+
+    // .about__item-img
+
+    &__item-img {
+        max-width: 94px;
+        margin-bottom: 19px;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    // .about__item-title
+
+    &__item-title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        color: #676770;
+        margin-bottom: 14px;
+    }
+
+    // .about__item-text
+
+    &__item-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 179%;
+        text-align: center;
+        color: #6a859c;
     }
 }
